@@ -6,7 +6,7 @@ COPY package.json bun.lock* bun.lockb* ./
 RUN bun install --frozen-lockfile || bun install
 
 COPY . .
-RUN bun run build
+RUN rm -rf build .docusaurus && bun run build
 
 FROM oven/bun:1-alpine AS runner
 
