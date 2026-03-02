@@ -1,14 +1,14 @@
-FROM node:20-alpine AS builder
+FROM oven/bun:1-alpine AS builder
 
 WORKDIR /app
 
-COPY package.json package-lock.json* ./
-RUN npm ci
+COPY package.json bun.lock* bun.lockb* ./
+RUN bun install --frozen-lockfile || bun install
 
 COPY . .
-RUN npm run build
+RUN bun run build
 
-FROM node:20-alpine AS runner
+FROM oven/bun:1-alpine AS runner
 
 WORKDIR /app
 
@@ -18,4 +18,4 @@ COPY --from=builder /app/package.json ./
 
 EXPOSE 3000
 
-CMD ["npx", "docusaurus", "serve", "--host", "0.0.0.0", "--port", "3000"]
+CMD ["bunx", "docusaurus", "serve", "--host", "0.0.0.0", "--port", "3000"]
