@@ -1,7 +1,11 @@
 {
   "logo.alt": {
-    "message": "Indonesians in Dubai — SITREP",
+    "message": "Indonesian and UAE flags",
     "description": "The alt text of navbar logo"
+  },
+  "title": {
+    "message": "Indonesians In Dubai",
+    "description": "The navbar title"
   },
   "item.label.Laporan Situasi": {
     "message": "Situation Reports",

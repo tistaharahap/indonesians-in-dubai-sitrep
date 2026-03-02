@@ -45,9 +45,9 @@ const config: Config = {
 
   themeConfig: {
     navbar: {
-      title: '',
+      title: 'Indonesians In Dubai',
       logo: {
-        alt: 'WNI di Dubai — SITREP',
+        alt: 'Indonesian and UAE flags',
         src: 'img/logo-light.svg',
         srcDark: 'img/logo-dark.svg',
       },
