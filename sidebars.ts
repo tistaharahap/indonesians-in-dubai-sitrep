@@ -10,7 +10,7 @@ const sidebars: SidebarsConfig = {
     {
       type: 'category',
       label: 'Maret 2026',
-      items: ['sitreps/2026-03-02-example'],
+      items: ['sitreps/2026-03-02-1330utc'],
     },
   ],
   emergencySidebar: [
