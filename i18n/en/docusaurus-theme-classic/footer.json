@@ -1,0 +1,54 @@
+{
+  "link.title.Darurat": {
+    "message": "Emergency",
+    "description": "The title of the footer links column with title=Darurat in the footer"
+  },
+  "link.title.Sumber Resmi": {
+    "message": "Official Resources",
+    "description": "The title of the footer links column with title=Sumber Resmi in the footer"
+  },
+  "link.title.Sosial": {
+    "message": "Social",
+    "description": "The title of the footer links column with title=Sosial in the footer"
+  },
+  "link.item.label.Laporan Situasi": {
+    "message": "Situation Reports",
+    "description": "The label of footer link with label=Laporan Situasi linking to /"
+  },
+  "link.item.label.Kontak Darurat": {
+    "message": "Emergency Contacts",
+    "description": "The label of footer link with label=Kontak Darurat linking to /emergency/contacts"
+  },
+  "link.item.label.Rute Evakuasi": {
+    "message": "Exit Routes",
+    "description": "The label of footer link with label=Rute Evakuasi linking to /emergency/exit-routes"
+  },
+  "link.item.label.Daftar Tas Darurat": {
+    "message": "Go-Bag Checklist",
+    "description": "The label of footer link with label=Daftar Tas Darurat linking to /emergency/go-bag-checklist"
+  },
+  "link.item.label.Peduli WNI": {
+    "message": "Peduli WNI",
+    "description": "The label of footer link with label=Peduli WNI linking to https://peduliwni.kemlu.go.id"
+  },
+  "link.item.label.KBRI Abu Dhabi": {
+    "message": "KBRI Abu Dhabi",
+    "description": "The label of footer link with label=KBRI Abu Dhabi linking to https://kemlu.go.id/abudhabi"
+  },
+  "link.item.label.KJRI Dubai": {
+    "message": "KJRI Dubai",
+    "description": "The label of footer link with label=KJRI Dubai linking to https://kemlu.go.id/dubai"
+  },
+  "link.item.label.KBRI di X": {
+    "message": "KBRI on X",
+    "description": "The label of footer link with label=KBRI di X linking to https://x.com/kbriabudhabi"
+  },
+  "link.item.label.GitHub": {
+    "message": "GitHub",
+    "description": "The label of footer link with label=GitHub linking to https://github.com/tistaharahap/indonesians-in-dubai-sitrep"
+  },
+  "copyright": {
+    "message": "Maintained by volunteers. Not affiliated with the Indonesian government.",
+    "description": "The footer copyright"
+  }
+}

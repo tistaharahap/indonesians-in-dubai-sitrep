@@ -1,0 +1,34 @@
+{
+  "logo.alt": {
+    "message": "Indonesians in Dubai — SITREP",
+    "description": "The alt text of navbar logo"
+  },
+  "item.label.Laporan Situasi": {
+    "message": "Situation Reports",
+    "description": "Navbar item with label Laporan Situasi"
+  },
+  "item.label.Info Darurat": {
+    "message": "Emergency Info",
+    "description": "Navbar item with label Info Darurat"
+  },
+  "item.label.Kerangka DEFCON": {
+    "message": "DEFCON Framework",
+    "description": "Navbar item with label Kerangka DEFCON"
+  },
+  "item.label.Peduli WNI": {
+    "message": "Peduli WNI",
+    "description": "Navbar item with label Peduli WNI"
+  },
+  "item.label.KBRI Abu Dhabi": {
+    "message": "KBRI Abu Dhabi",
+    "description": "Navbar item with label KBRI Abu Dhabi"
+  },
+  "item.label.KJRI Dubai": {
+    "message": "KJRI Dubai",
+    "description": "Navbar item with label KJRI Dubai"
+  },
+  "item.label.📞 +971-2-449-2666": {
+    "message": "📞 +971-2-449-2666",
+    "description": "Navbar item with label 📞 +971-2-449-2666"
+  }
+}

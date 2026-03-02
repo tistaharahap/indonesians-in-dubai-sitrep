@@ -1,0 +1,217 @@
+/* Emergency red theme */
+:root {
+  --ifm-color-primary: #DC2626;
+  --ifm-color-primary-dark: #C42222;
+  --ifm-color-primary-darker: #B91C1C;
+  --ifm-color-primary-darkest: #991B1B;
+  --ifm-color-primary-light: #E53E3E;
+  --ifm-color-primary-lighter: #EF4444;
+  --ifm-color-primary-lightest: #F87171;
+  --ifm-link-color: #DC2626;
+  --ifm-navbar-height: 4rem;
+}
+
+[data-theme='dark'] {
+  --ifm-color-primary: #EF4444;
+  --ifm-color-primary-dark: #DC2626;
+  --ifm-color-primary-darker: #C42222;
+  --ifm-color-primary-darkest: #B91C1C;
+  --ifm-color-primary-light: #F87171;
+  --ifm-color-primary-lighter: #FCA5A5;
+  --ifm-color-primary-lightest: #FEE2E2;
+  --ifm-link-color: #EF4444;
+}
+
+/* Navbar emergency phone styling */
+.navbar-emergency-phone {
+  font-weight: 700 !important;
+  color: #DC2626 !important;
+  border: 2px solid #DC2626;
+  border-radius: 6px;
+  padding: 4px 10px !important;
+}
+
+[data-theme='dark'] .navbar-emergency-phone {
+  color: #EF4444 !important;
+  border-color: #EF4444;
+}
+
+.navbar-emergency-phone:hover {
+  background-color: #DC2626 !important;
+  color: white !important;
+}
+
+/* CardLink component */
+.card-link {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  padding: 1rem 1.25rem;
+  border: 1px solid var(--ifm-color-emphasis-300);
+  border-radius: 8px;
+  text-decoration: none !important;
+  color: inherit !important;
+  transition: border-color 0.2s, box-shadow 0.2s;
+  margin-bottom: 0.75rem;
+}
+
+.card-link:hover {
+  border-color: var(--ifm-color-primary);
+  box-shadow: 0 2px 8px rgba(220, 38, 38, 0.1);
+}
+
+.card-link--horizontal {
+  flex-direction: row;
+}
+
+.card-link--vertical {
+  flex-direction: column;
+}
+
+.card-link__icon {
+  flex-shrink: 0;
+  color: var(--ifm-color-primary);
+  margin-top: 2px;
+}
+
+.card-link__content {
+  flex: 1;
+  min-width: 0;
+}
+
+.card-link__title {
+  font-weight: 600;
+  font-size: 1rem;
+  margin-bottom: 0.25rem;
+}
+
+.card-link__description {
+  font-size: 0.875rem;
+  color: var(--ifm-color-emphasis-700);
+  margin: 0;
+}
+
+/* CardGrid component */
+.card-grid {
+  display: grid;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.card-grid--cols-2 {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.card-grid--cols-3 {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.card-grid--cols-4 {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+@media (max-width: 768px) {
+  .card-grid--cols-2,
+  .card-grid--cols-3,
+  .card-grid--cols-4 {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Accordion component */
+.accordion-group {
+  margin-bottom: 1rem;
+}
+
+.accordion {
+  border: 1px solid var(--ifm-color-emphasis-300);
+  border-radius: 8px;
+  margin-bottom: 0.5rem;
+  overflow: hidden;
+}
+
+.accordion > summary {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.875rem 1.25rem;
+  cursor: pointer;
+  font-weight: 600;
+  list-style: none;
+  user-select: none;
+}
+
+.accordion > summary::-webkit-details-marker {
+  display: none;
+}
+
+.accordion > summary::after {
+  content: '';
+  margin-left: auto;
+  border: solid var(--ifm-color-emphasis-500);
+  border-width: 0 2px 2px 0;
+  padding: 3px;
+  transform: rotate(45deg);
+  transition: transform 0.2s;
+}
+
+.accordion[open] > summary::after {
+  transform: rotate(-135deg);
+}
+
+.accordion__icon {
+  flex-shrink: 0;
+  color: var(--ifm-color-primary);
+}
+
+.accordion__content {
+  padding: 0 1.25rem 1rem;
+}
+
+/* Steps component */
+.steps {
+  counter-reset: step-counter;
+  padding-left: 0;
+  list-style: none;
+}
+
+.step {
+  counter-increment: step-counter;
+  position: relative;
+  padding-left: 3rem;
+  padding-bottom: 1.5rem;
+  border-left: 2px solid var(--ifm-color-emphasis-300);
+  margin-left: 1rem;
+}
+
+.step:last-child {
+  border-left-color: transparent;
+  padding-bottom: 0;
+}
+
+.step::before {
+  content: counter(step-counter);
+  position: absolute;
+  left: -1rem;
+  top: 0;
+  width: 2rem;
+  height: 2rem;
+  background: var(--ifm-color-primary);
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.875rem;
+  font-weight: 700;
+}
+
+.step__title {
+  font-weight: 600;
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.step__content {
+  font-size: 0.9375rem;
+}

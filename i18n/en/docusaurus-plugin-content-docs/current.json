@@ -1,0 +1,22 @@
+{
+  "version.label": {
+    "message": "Current",
+    "description": "The label for version current"
+  },
+  "sidebar.sitrepsSidebar.category.Ringkasan": {
+    "message": "Overview",
+    "description": "The label for category 'Ringkasan' in sidebar 'sitrepsSidebar'"
+  },
+  "sidebar.sitrepsSidebar.category.Maret 2026": {
+    "message": "March 2026",
+    "description": "The label for category 'Maret 2026' in sidebar 'sitrepsSidebar'"
+  },
+  "sidebar.emergencySidebar.category.Kontak & Sumber Daya": {
+    "message": "Contacts & Resources",
+    "description": "The label for category 'Kontak & Sumber Daya' in sidebar 'emergencySidebar'"
+  },
+  "sidebar.defconSidebar.category.Tingkat Ancaman": {
+    "message": "Threat Levels",
+    "description": "The label for category 'Tingkat Ancaman' in sidebar 'defconSidebar'"
+  }
+}
