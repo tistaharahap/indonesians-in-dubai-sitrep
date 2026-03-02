@@ -68,7 +68,7 @@ const config: Config = {
           type: 'docSidebar',
           sidebarId: 'defconSidebar',
           position: 'left',
-          label: 'Kerangka DEFCON',
+          label: 'Kerangka Siaga',
         },
         {
           href: 'https://peduliwni.kemlu.go.id',

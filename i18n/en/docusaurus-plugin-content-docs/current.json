@@ -15,8 +15,8 @@
     "message": "Contacts & Resources",
     "description": "The label for category 'Kontak & Sumber Daya' in sidebar 'emergencySidebar'"
   },
-  "sidebar.defconSidebar.category.Tingkat Ancaman": {
-    "message": "Threat Levels",
-    "description": "The label for category 'Tingkat Ancaman' in sidebar 'defconSidebar'"
+  "sidebar.defconSidebar.category.Tingkat Siaga": {
+    "message": "Threat Levels (DEFCON)",
+    "description": "The label for category 'Tingkat Siaga' in sidebar 'defconSidebar'"
   }
 }

@@ -27,7 +27,7 @@ const sidebars: SidebarsConfig = {
   defconSidebar: [
     {
       type: 'category',
-      label: 'Tingkat Ancaman',
+      label: 'Tingkat Siaga',
       items: ['defcon/overview'],
     },
   ],

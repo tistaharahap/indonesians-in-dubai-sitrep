@@ -11,9 +11,9 @@
     "message": "Emergency Info",
     "description": "Navbar item with label Info Darurat"
   },
-  "item.label.Kerangka DEFCON": {
+  "item.label.Kerangka Siaga": {
     "message": "DEFCON Framework",
-    "description": "Navbar item with label Kerangka DEFCON"
+    "description": "Navbar item with label Kerangka Siaga"
   },
   "item.label.Peduli WNI": {
     "message": "Peduli WNI",
