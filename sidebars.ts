@@ -5,12 +5,12 @@ const sidebars: SidebarsConfig = {
     {
       type: 'category',
       label: 'Ringkasan',
-      items: ['sitreps/2026-03-05-0620utc', 'index'],
+      items: ['sitreps/2026-03-05-0815utc', 'index'],
     },
     {
       type: 'category',
       label: 'Maret 2026',
-      items: ['sitreps/2026-03-05-0620utc', 'sitreps/2026-03-04-2245utc', 'sitreps/2026-03-04-1930utc', 'sitreps/2026-03-04-1730utc', 'sitreps/2026-03-04-1625utc', 'sitreps/2026-03-04-1050utc', 'sitreps/2026-03-04-0855utc', 'sitreps/2026-03-04-0510utc', 'sitreps/2026-03-03-2005utc', 'sitreps/2026-03-03-1715utc', 'sitreps/2026-03-03-1545utc', 'sitreps/2026-03-03-1245utc', 'sitreps/2026-03-03-0900utc', 'sitreps/2026-03-03-0340utc', 'sitreps/2026-03-03-0255utc', 'sitreps/2026-03-03-0210utc', 'sitreps/2026-03-02-1830utc', 'sitreps/2026-03-02-1610utc', 'sitreps/2026-03-02-1420utc', 'sitreps/2026-03-02-1330utc'],
+      items: ['sitreps/2026-03-05-0815utc', 'sitreps/2026-03-05-0620utc', 'sitreps/2026-03-04-2245utc', 'sitreps/2026-03-04-1930utc', 'sitreps/2026-03-04-1730utc', 'sitreps/2026-03-04-1625utc', 'sitreps/2026-03-04-1050utc', 'sitreps/2026-03-04-0855utc', 'sitreps/2026-03-04-0510utc', 'sitreps/2026-03-03-2005utc', 'sitreps/2026-03-03-1715utc', 'sitreps/2026-03-03-1545utc', 'sitreps/2026-03-03-1245utc', 'sitreps/2026-03-03-0900utc', 'sitreps/2026-03-03-0340utc', 'sitreps/2026-03-03-0255utc', 'sitreps/2026-03-03-0210utc', 'sitreps/2026-03-02-1830utc', 'sitreps/2026-03-02-1610utc', 'sitreps/2026-03-02-1420utc', 'sitreps/2026-03-02-1330utc'],
     },
   ],
   emergencySidebar: [
